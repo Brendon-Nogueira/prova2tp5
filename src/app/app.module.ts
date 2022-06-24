@@ -4,10 +4,14 @@ import { BrowserModule } from '@angular/platform-browser';
 import {HttpClientModule} from '@angular/common/http'
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { CategoriasComponent } from './categorias/categorias.component';
+import { MusicComponent } from './music/music.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    CategoriasComponent,
+    MusicComponent
   ],
   imports: [
     BrowserModule,

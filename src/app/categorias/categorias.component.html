@@ -1,0 +1,19 @@
+<h1>Seja Bem vindo a Biblioteca de Músicas</h1>
+
+
+<h3>Categorias</h3>
+
+
+<ul>
+  <li>{{newCategory.filename}}</li>
+</ul>
+
+<div>
+  <form #myCategory="ngForm" (submit)="saveCategory(myCategory)">
+    <label>Nova Categoria:</label>
+    <input type="text" name="myCategory" [(ngModel)]="newCategory.filename">
+    <input type="submit" value="salvar">
+  </form>
+</div>
+
+
